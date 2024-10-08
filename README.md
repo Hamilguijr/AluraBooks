@@ -1,3 +1,4 @@
-AluraBooks = Site de venda de livros do Alura
+# AluraBooks
+## **Site de venda de livros do Alura**
 
 Metodologia de Aprendizagem = MobileFirst
