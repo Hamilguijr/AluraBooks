@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBooks</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,6 +72,60 @@
                 <div class="swiper-button-next"></div>
             </div>
         </div>
+        <div class="card">
+            <div class="card__decricao">
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você tenha se interessado por...</h3>
+                    <h2 class="descricao__titulo-livro">Angular 11 FireBase</h2>
+                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+
+                </div>
+                <img src="img/Angular.svg" class="descricao__imagem"/>
+            </div>
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <div class="swiper">
+            <!--Additional required wrapper-->
+            <!--If we need pagination-->
+            <div class="swiper-pagination"></div>
+            
+            <div class="swipper-wrapper">
+                <!--Slides-->
+                <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot"></div>
+                <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design"></div>
+                <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre Javascript assertivo"></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro guia front end"></div>
+                <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
+                <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
+
+                <!--if we need navigation buttons-->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!--1° linha-->
+                <div class="card__decricao">
+                    <!--1° coluna-->
+                    <div class="descricao">
+                        <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                        <h3 class="descricao__titulo">Autora do mês</h3>
+                        <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                        <p class="descricao__texto">Analista de Sistemas e Escritora, Juliana é especialista em FontEnd</p>
+                    </div>
+                </div>
+                <!--2° Coluna-->    
+            </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
