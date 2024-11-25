@@ -30,6 +30,12 @@
     padding: 1em;
 }
 
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
 .card__botoes {
     display: flex;
     justify-content: space-between;
